@@ -3,6 +3,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const axios = require("axios");
 require('dotenv').config()
 
+
 // تنظیمات
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || "YOUR_TELEGRAM_BOT_TOKEN";
 const FAQ_JSON_URI = process.env.FAQ_JSON_URI || "URL_TO_YOUR_FAQ_JSON";
